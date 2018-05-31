@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Nothing+You+Could+Do|Anaheim');
+
+html, body {
+    margin: 0; 
+}
+
+header {
+    height: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: pink; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+button {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 30px; 
+}
+
+section { 
+    height: 550%;
+}
+
+.carrousel {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+
+section h1 { 
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 50px; 
+    text-align: center; 
+    
+}
+
+section h2 {
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 30px; 
+    text-align: center; 
+}
+
+img {
+    height: 500px; 
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    height: 20%;
+    background-image: url("img/background1.jpg");
+    min-height: 45%;
+    width: 100%;
+    margin:0;
+    padding: 5px 10px; 
+    font-family: 'Annie Use Your Telescope', cursive;
+}

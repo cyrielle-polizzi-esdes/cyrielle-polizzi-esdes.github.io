@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Nothing+You+Could+Do|Anaheim');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+p { 
+    font-family: 'Anaheim', sans-serif; 
+    font-size: 15px; 
+}
+
+header {
+    background-image: url("img/toit.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+header h1 {
+    margin: 0;
+    color: black;
+    background-size: 40%;
+    font-size: 70px;
+    letter-spacing: 2px; 
+    transition: all 0.3s cubic-bezier(1, 0, 0, 1); 
+    animation: enter 2s ease-in-out; 
+}
+
+header h1:hover {
+    color: white; 
+}
+
+header h2 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 40px;
+    color: white;
+    margin: 0;         
+}
+
+
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+
+header a {
+    color: black;
+    font-size: 30px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin: 15px;
+}
+
+header a:hover {
+    color: white;
+}
+
+
+/** SECTION **/ 
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 5%;
+    margin: 20px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    border: 2px double black;
+    border-radius: 25px; 
+}
+
+#menu a {
+    width: 24%; 
+    color: white;
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin: 1px;
+
+}
+
+#home {
+    margin: 20px; 
+}
+
+#home h1 { 
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 30px; 
+    text-align: center; 
+    margin: 20px; 
+    
+}
+
+article {
+    width: 100%;  
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items : center;
+    background-repeat : no-repeat;
+    background-position : right top;
+    background-size : cover;
+    cursor: pointer;
+    transition: all 0.1s cubic-bezier(1,0,1,-0.02);
+    font-size: 25px;
+    color: black; 
+} 
+
+article:hover {
+    color: grey; 
+    opacity:0,8;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    height: 15%;
+    background-color: white;
+    min-height: 57%;
+    width: 100%;
+    padding: 5px 10px; 
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+footer a {
+    color: black;
+    font-size: 30px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin: 15px 15px 15px 15px;
+}
+
+footer a:hover {
+    color:grey;
+}
+
+
+
+/** RESPONSIVE **/ 
+/* Mobile */ 
+@media only screen and (max-width:600px) {
+    #menu {
+        flex-wrap: nowrap; 
+        flex-direction: column;
+    } 
+    #menu a {
+        width: 80%;
+    }
+}
+
+/* Tablet */ 
+@media screen and (min-width: 600px) and (max-width: 600px) {
+    #menu a {
+        width: 40%;
+    }
+}
+
+/** Animations **/ 
+@keyframes enter { 
+
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    } 
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
