@@ -21,9 +21,6 @@ button {
     font-size: 30px; 
 }
 
-section { 
-    height: 550%;
-}
 
 .carrousel {
     display: flex; 
@@ -59,11 +56,18 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
-    height: 20%;
-    background-image: url("img/background1.jpg");
-    min-height: 45%;
+    height: 10px;
+    min-height: 20%;
     width: 100%;
-    margin:0;
     padding: 5px 10px; 
     font-family: 'Annie Use Your Telescope', cursive;
+    background-color:rgb(202, 202, 202); 
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color:grey;
 }

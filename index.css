@@ -93,20 +93,18 @@ header a:hover {
 }
 
 #home {
-    margin: 20px; 
+    margin: 100px; 
 }
 
-#home h1 { 
-    flex-direction: row;
+#home article { 
+    flex-direction: column;
     justify-content: center;
     font-family: 'Annie Use Your Telescope', cursive;
     font-size: 30px; 
-    text-align: center; 
-    margin: 20px; 
-    
+    text-align: center;    
 }
 
-article {
+#menu article {
     width: 100%;  
     display: flex; 
     flex-direction: row;
@@ -121,7 +119,7 @@ article {
     color: black; 
 } 
 
-article:hover {
+#menu article:hover {
     color: grey; 
     opacity:0,8;
 }
@@ -132,25 +130,25 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
-    height: 15%;
-    background-color: white;
-    min-height: 57%;
+    height: 10px;
+    min-height: 20%;
     width: 100%;
     padding: 5px 10px; 
     font-family: 'Annie Use Your Telescope', cursive;
+    background-color:rgb(202, 202, 202); 
 }
 
 footer a {
     color: black;
-    font-size: 30px;
-    font-family: 'Annie Use Your Telescope', cursive;
-    margin: 15px 15px 15px 15px;
 }
 
 footer a:hover {
     color:grey;
 }
 
+img {
+    height: 200px; 
+}
 
 
 /** RESPONSIVE **/ 
