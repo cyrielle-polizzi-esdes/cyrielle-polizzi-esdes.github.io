@@ -4,7 +4,7 @@ html, body {
     margin: 0; 
 }
 
-header {
+#menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -16,18 +16,38 @@ header {
     font-family: 'Annie Use Your Telescope', cursive;
     border: 2px double black;
     border-radius: 25px; 
-    position: fixed; 
-}
-    
-header a {
-    width: 24%; 
-    color:black;
-    font-family: 'Annie Use Your Telescope', cursive;
-    margin: 1px;
+
 }
 
-section { 
-    height: 550%;
+#menu a {
+    width: 24%; 
+    color: white;
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin: 1px;
+
+
+}
+
+#menu article {
+    width: 100%;  
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items : center;
+    background-repeat : no-repeat;
+    background-position : right top;
+    background-size : cover;
+    cursor: pointer;
+    transition: all 0.1s cubic-bezier(1,0,1,-0.02);
+    font-size: 25px;
+    color: black; 
+
+} 
+
+#menu article:hover {
+    color: grey; 
+    opacity:0,8;
+
 }
 
 .carrousel {
@@ -57,17 +77,38 @@ img {
     height: 500px; 
 }
 
+p { 
+    font-family: 'Anaheim', sans-serif; 
+    font-size: 15px; 
+}
+
+article { 
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 30px; 
+    text-align: center;    
+}
+
 footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
-    height: 20%;
-    background-image: url("img/background1.jpg");
-    min-height: 45%;
+    height: 10px;
+    min-height: 20%;
     width: 100%;
-    margin:0;
     padding: 5px 10px; 
-    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Anaheim', cursive;
+    background-color:rgb(202, 202, 202); 
 }
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color:grey;
+}
+
