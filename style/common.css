@@ -55,6 +55,11 @@ img {
     height: 500px; 
 }
 
+#next {
+    height: 45px;
+    align-items: center; 
+}
+
 footer {
     display: flex;
     flex-direction: row;
