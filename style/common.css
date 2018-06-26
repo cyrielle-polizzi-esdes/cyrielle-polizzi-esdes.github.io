@@ -60,6 +60,19 @@ img {
     align-items: center; 
 }
 
+#back {
+    height: 45px;
+    align-items: center; 
+}
+
+#pages {
+    font-size: 25px;
+    flex-direction: column;
+    font-family: 'Annie Use Your Telescope', cursive;
+    align-items: center;
+    justify-content: space-between; 
+}
+
 footer {
     display: flex;
     flex-direction: row;
