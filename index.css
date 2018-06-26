@@ -77,6 +77,8 @@ header a:hover {
 }
 
 
+
+
 /** SECTION **/ 
 
 #menu {
@@ -161,6 +163,10 @@ img {
 }
 
 #happy {
+    height: 35px; 
+}
+
+#heart {
     height: 35px; 
 }
 
