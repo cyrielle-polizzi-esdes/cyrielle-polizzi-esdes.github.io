@@ -53,6 +53,10 @@ header h2 {
     margin: 0;         
 }
 
+header h3 { 
+    animation: go 2s ease-in-out; 
+}
+
 
 #social {
     display: flex;
@@ -190,4 +194,14 @@ img {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+
+@keyframes go {
+    from {font-size: 15px;
+    }
+
+    to {font-size: 50px;
+    }
+
 }
