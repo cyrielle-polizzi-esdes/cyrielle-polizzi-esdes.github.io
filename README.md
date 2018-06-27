@@ -17,4 +17,4 @@ Les blogs sur lesquels je souhaiterais m'inspirer :
 http://www.carolinereceveurandco.com/ 
 http://www.noholita.fr/
 http://www.carolinethecity.com/ 
-
+http://www.justemaudinette.com/
