@@ -95,3 +95,19 @@ footer a:hover {
     color:grey;
 }
 
+p { 
+    font-family: 'Anaheim', sans-serif; 
+    font-size: 15px; 
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;    
+}
+
+b {
+    color: rgb(141, 50, 27);
+    font-size: 17px; 
+}
+
+article {
+    margin: 100px; 
+}

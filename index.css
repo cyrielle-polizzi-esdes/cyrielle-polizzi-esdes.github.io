@@ -211,3 +211,8 @@ img {
     }
 
 }
+
+b {
+    color: rgb(141, 50, 27); 
+    font-size: 17px; 
+}
